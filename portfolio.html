@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel = "icon" href = "img/icon.png" type = "image/x-icon">
+<!-- This code has been modified from https://www.w3schools.com/w3css/tryw3css_templates_dark_portfolio.htm. It has been modified by Muhammad Nauman -->
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 14px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 175px;background: #808080;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 125px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner
+  <img src="/w3images/avatar_smoke.jpg" style="width:100%">-->
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT ME</p>
+  </a>
+  <a href="portfolio.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-id-badge w3-xxlarge"></i>
+    <p>PORTFOLIO</p>
+  </a>
+  <a href="qualifications.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-briefcase w3-xxlarge"></i>
+    <p>QUALIFICATIONS</p>
+  </a>
+  <a href="service.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-book w3-xxlarge"></i>
+    <p>SERVICE</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="index.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="about.html" class="w3-bar-item w3-button" style="width:25% !important">ABOUT ME</a>
+    <a href="portfolio.html" class="w3-bar-item w3-button" style="width:25% !important">PORTFOLIO</a>
+    <a href="qualifications.html" class="w3-bar-item w3-button" style="width:25% !important">QUALIFICATIONS</a>
+    <a href="service.html" class="w3-bar-item w3-button" style="width:25% !important">SERVICE</a>
+  </div>
+</div>
+
+  <!-- Portfolio Section -->
+  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="portfolio">
+    <h2 class="w3-text-white">Portfolio</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <p>Currently, I am doing research with <a href= https://www.csdl.tamu.edu/~furuta//>Prof. Richard Furuta</a> and <a href= https://liberalarts.tamu.edu/anthropology/profile/filipe-vieira-de-castro/>Prof. Filipe Castro</a> on <a href = https://nadl.tamu.edu> The Nautical Archaeology Digital Library</a>. We are researching the best way to add images/paintings of ships to a database. We are also researching how to crop and highlight certain parts of the ships to assign more information to it. Furthermore, we are researching the best and the easiest way to add filtering capabilities to those images. I am excited to contribute and learn more!</p>
+
+    <br>
+    <h4><b>Virus Simulation (Python)</h4></b>
+    <p>For the final project in my Engineering Lab Computation, my group made a simulation of how a virus would spread depending on what parameters are passed in. This project takes a population  size and a simulation duration from the user. Then, it runs the simulation that will track an infection spread throughout a population. At each time step and at the end, statistics are reported. This project was implemented in Python.<p>
+
+    <br><h4><b>Data Structure Implementations (C++)</h4></b>
+
+    <p>During my Data Structures & Algorithm course, I implemented a singly linked list structure, a doubly linked list structure, different implementations of Stack, different implementations of the Priority Queue, etc. Learning about the different advantages and disadvantages of different structures was very helpful. Learning about when to use what structure is knowledge that I will use for the rest of my life.</p>
+
+    <br>
+    <img src = "img/Main.png" align = "left" width="500" hspace = "40" vspace="40">
+    <h4><b>Simplified Instructional Set Architecture (Python, y86 & Logisim)</h4></b>
+
+    <p>For the final project of my Computer Organization class, my teammate and I built a simplified ISA based upon the y86 syntax. This project takes in code in Y86 syntax, transforms it into hex code using Python, and executes it in a CPU built in Logisim. This project helped me understand how a CPU actually works, which is essential knowledge for a programmer. The image is shown on the left. Hover over to enlarge. <a href=https://photos.app.goo.gl/4SGfCtXB2w6k1LXF9>Click here</a> for the photo.</p>
+
+    <h4><b>Other Projects</h4></b>
+
+    <p>I have many other projects that I have done, but it would be impossible to list them all here. I have implemented different games, such as Bulls & Cows, chess, the War card game, and others. I have also implemented the 8-puzzle game in python that AI solves using different searches, such as a*, DFS, BFS, etc. I have also made a program that takes in the elevation of a mountain and a starting point. The program then finds the greediest path through it. As an application developer at WellMed, I developed an app for project managers to store all their projects in one place and to track its progress and trends. I am currently working on a budgeting and staffing app for them.<p>
+    </div>
+  <!-- End Portfolio Section -->
+
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-white w3-xlarge">
+    <a href="https://www.linkedin.com/in/mnauman-tamu">
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </a>
+    <a href="mailto:mnauman@tamu.edu">
+      <i class="fa fa-envelope w3-hover-opacity"></i>
+    </a>
+    <!-- TODO: Add Github -->
+    <!--<p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-black">w3.css</a></p>-->
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
